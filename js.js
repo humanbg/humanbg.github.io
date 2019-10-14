@@ -1,5 +1,5 @@
 window.onload=function(){
-	$e=document.getElementById("nt").contentWindow.document.getElementsByTagName("pre")[0].textContent
+	$e=document.getElementById("nt").contentWindow.document.getElementsByTagName("body")[0].textContent
 	$text=document.getElementById("text")
 	$text.value=$e
 
